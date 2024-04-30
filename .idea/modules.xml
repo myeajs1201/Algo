@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
@@ -5,4 +6,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/react.iml" filepath="$PROJECT_DIR$/.idea/react.iml" />
     </modules>
   </component>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/react.iml" filepath="$PROJECT_DIR$/.idea/react.iml" />
+    </modules>
+  </component>
+>>>>>>> 520ac0c47bf5304a368cf259e432d82578d31b4a
 </project>
