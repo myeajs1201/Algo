@@ -30,7 +30,7 @@ const Compiler = ({exampleCode}: {exampleCode: string}) => {
           headers: {
             'x-rapidapi-host': 'judge0-ce.p.rapidapi.com',
             'x-rapidapi-key':
-              '준성이 지갑', // Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key
+              '', // Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key
             'content-type': 'application/json',
             accept: 'application/json',
           },
@@ -52,7 +52,7 @@ const Compiler = ({exampleCode}: {exampleCode: string}) => {
             headers: {
               'x-rapidapi-host': 'judge0-ce.p.rapidapi.com',
               'x-rapidapi-key':
-                '준성이 지갑', // Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key
+                '', // Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key
               'content-type': 'application/json',
             },
           },

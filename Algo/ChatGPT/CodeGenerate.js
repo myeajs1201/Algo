@@ -4,7 +4,7 @@ import { Picker } from '@react-native-picker/picker';
 import { useNavigation } from '@react-navigation/native'; // 네비게이션 훅 추가
 
 // 챗지피티 3.5 터보 API 키
-const API_KEY = '준성이 지갑';
+const API_KEY = '';
 const apiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
 // OpenAI API와의 통신하여 AI 응답 가져오는 함수

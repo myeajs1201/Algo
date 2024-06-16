@@ -5,17 +5,27 @@ buildscript {
         compileSdkVersion = 34
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
-        kotlinVersion = "1.8.0"
+        kotlin_version = '1.8.0'
     }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
-        classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath 'com.android.tools.build:gradle:4.2.0' // 이 버전은 적절히 업데이트되어야 할 수 있습니다.
+        classpath 'com.facebook.react:react-native-gradle-plugin:8.3' // 이 버전은 적절히 업데이트되어야 할 수 있습니다.
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.3.13'
     }
 }
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://dl.bintray.com/android/android-tools' }
+    }
+}
+
 
 apply plugin: "com.facebook.react.rootproject"
